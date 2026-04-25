@@ -9,6 +9,12 @@ A real-time surveillance system built with **YOLOv8** and **Deep Re-ID** to dete
 * **Rotation-Invariant Re-ID:** Identifies weapons even when held at different angles.
 
 ## 🚀 Installation
-1. `git clone https://github.com/YourUser/Weapon-Detector.git`
+1. `git clone https://github.com/AhmedE16/Weapon-Detector.git`
 2. `pip install -r requirements.txt`
 3. `streamlit run app.py`
+
+
+## 📥 Model Download
+Due to file size limits, the trained YOLOv8 weights are hosted on Google Drive.
+1. Download `best_latest.pt` from [https://drive.google.com/drive/folders/1Xv9491xRwlLciHSd4ZDp3A8ThTdrXqr-?usp=sharing].
+2. Place the file in the root directory of this project.
